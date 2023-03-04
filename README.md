@@ -36,4 +36,10 @@ After a number of iterations, the MSE stop getting smaller and ended up being `F
 ### Resulting linear model
 The next figure is a simple plot of the resulting linear model we got using the Gradient Descent algorithm.  
 
-![image](https://user-images.githubusercontent.com/63553534/222920472-eac87294-a3be-430a-b34a-7366499382af.png)
+![image](https://user-images.githubusercontent.com/63553534/222920472-eac87294-a3be-430a-b34a-7366499382af.png)  
+
+## Developers
+
+- Enzo Pedro Bonacina [Turma B] 00313316;
+- Thales Junqueira Albergaria Moraes Perez [Turma B] 00303035;
+- Hiram Artnak Martins [Turma B] 00276484;
