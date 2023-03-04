@@ -56,7 +56,7 @@ def fit(data, theta_0, theta_1, alpha, num_iterations):
     """
     thetas_0 = []
     thetas_1 = []
-    for _ in range(num_iterations-50):
+    for _ in range(num_iterations):
         theta_0, theta_1 = step_gradient(theta_0, theta_1, data, alpha)
         thetas_0.append(theta_0)
         thetas_1.append(theta_1)
