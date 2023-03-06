@@ -23,20 +23,19 @@ The following initial values gave us a good MSE for our model:
 ```python
 theta_0 = 0
 theta_1 = 0
-alpha = 0.01
-num_iterations = 100
+alpha = 0.001
+num_iterations = 50000
 ```
 
 ## Final results
 ### Mean Squared Error
-After a number of iterations, the MSE stop getting smaller and ended up being `Final MSE = 10.702138366187492`, as the following plot shows.  
+After a number of iterations, the MSE stop getting smaller and ended up being `Final MSE = 8.527708190982562`, as the following plot shows.
 
-![image](https://user-images.githubusercontent.com/63553534/222920415-217be6ca-e2de-4a20-8002-1b0563b20636.png)
+![image](https://user-images.githubusercontent.com/119754473/223022160-130b5c9f-465d-4ee7-a668-abd88dbdbd35.png)
 
 ### Resulting linear model
 The next figure is a simple plot of the resulting linear model we got using the Gradient Descent algorithm.  
-
-![image](https://user-images.githubusercontent.com/63553534/222920472-eac87294-a3be-430a-b34a-7366499382af.png)  
+![image](https://user-images.githubusercontent.com/119754473/223022666-ab71db12-b147-47bd-87a6-d97705272405.png)
 
 ## Developers
 

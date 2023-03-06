@@ -1,5 +1,5 @@
 import numpy as np
-
+from numba import jit
 
 def compute_mse(theta_0, theta_1, data):
     """
@@ -16,7 +16,7 @@ def compute_mse(theta_0, theta_1, data):
     error = predicted_values - y
     return np.square(error).mean()
 
-
+@jit
 def step_gradient(theta_0, theta_1, data, alpha):
     """
     Executa uma atualização por descida do gradiente  e retorna os valores atualizados de theta_0 e theta_1.
@@ -38,7 +38,7 @@ def step_gradient(theta_0, theta_1, data, alpha):
 
     return new_theta_0, new_theta_1
 
-
+@jit
 def fit(data, theta_0, theta_1, alpha, num_iterations):
     """
     Para cada época/iteração, executa uma atualização por descida de
