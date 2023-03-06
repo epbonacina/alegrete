@@ -2,7 +2,7 @@ Basic implementation of the Gradient Descent algorithm, mainly used to minimize 
 
 ## Relevant files
 - `alegrete.py`: where the algorithm lies; 
-- `alegrete.csv`: the data used during the training section. It's composed of two columns: the first represents the area of property in Alegrete, and the second represents the value of the property. The following figure is a plot of `alegrete.csv`  
+- `alegrete.csv`: the data used during the training section. It's composed of two columns: the first represents the area of a property in Alegrete, and the second represents the value of the property. The following figure is a plot of `alegrete.csv`  
 
 ![image](https://user-images.githubusercontent.com/63553534/222920542-f5a5526c-b3f1-4fb6-9b5e-5467cf266fb8.png)
 
